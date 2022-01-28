@@ -27,7 +27,7 @@ SECRET_KEY = os.environ['PORTFOLIO_API_KEY']
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['dromriell-api.herokuapp.com']
+ALLOWED_HOSTS = ['https://dromriell-api.herokuapp.com', 'localhost', '127.0.0.1']
 
 
 # Application definition
