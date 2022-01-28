@@ -1,0 +1,1 @@
+web: gunicorn DG_API.wsgi
