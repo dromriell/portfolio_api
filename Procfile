@@ -1,1 +1,1 @@
-web: gunicorn DG_API.wsgi
+web: gunicorn portfolio_api.wsgi
