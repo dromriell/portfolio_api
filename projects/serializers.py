@@ -19,4 +19,6 @@ class ProjectSerializer(serializers.ModelSerializer):
          'description',
          'img_src',
          'tech',
+         'web_link',
+         'git_link',
       )
