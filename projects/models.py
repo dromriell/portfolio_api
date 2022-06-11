@@ -15,7 +15,8 @@ class Project(models.Model):
    name = models.CharField(max_length=70, null=False, blank=False)
    description = models.TextField(blank=True, null=True)
    tech = models.ManyToManyField(TechCategory)
-   link = models.URLField(max_length=200, blank=True, null=True)
+   web_link = models.URLField(max_length=200, blank=True, null=True)
+   git_link = models.URLField(max_length=200, blank=True, null=True)
    img_src = models.URLField(max_length=200)
 
    def __str__(self):
