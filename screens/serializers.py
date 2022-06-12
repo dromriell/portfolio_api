@@ -14,4 +14,10 @@ class ScreenSerializer(serializers.ModelSerializer):
          'description',
          'img_source',
          'apps',
+         'background_color',
+         'header_color',
+         'body_color',
+         'web_link',
+         'git_link',
+         'is_app_screen',
       )
