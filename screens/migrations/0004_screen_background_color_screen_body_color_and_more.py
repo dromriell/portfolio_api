@@ -13,7 +13,7 @@ class Migration(migrations.Migration):
         migrations.AddField(
             model_name='screen',
             name='background_color',
-            field=models.CharField(default='#fffffff', max_length=7),
+            field=models.CharField(default='#ffffff', max_length=7),
         ),
         migrations.AddField(
             model_name='screen',
