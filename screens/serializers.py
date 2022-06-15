@@ -12,7 +12,9 @@ class ScreenSerializer(serializers.ModelSerializer):
       fields = (
          'name',
          'description',
-         'img_source',
+         'bg_img_source',
+         'img_1_source',
+         'img_2_source',
          'apps',
          'background_color',
          'header_color',
