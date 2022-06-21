@@ -141,7 +141,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5000",
     'http://192.168.4.39:3000',
     'http://192.168.4.39:5000',
-    'https://dromriell-portfolio.herokuapp.com',
+    "https://62b2139aaf335c1816efab97--dromriell-portfolio.netlify.app"
 ]
 
 CORS_ALLOW_HEADERS = list(default_headers) + [
