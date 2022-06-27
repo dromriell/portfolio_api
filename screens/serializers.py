@@ -15,6 +15,7 @@ class ScreenSerializer(serializers.ModelSerializer):
          'bg_img_source',
          'img_1_source',
          'img_2_source',
+         'video_source',
          'apps',
          'background_color',
          'header_color',
