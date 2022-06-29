@@ -10,4 +10,4 @@ class Note(models.Model):
    read = models.BooleanField(default=False)
 
    def __str__(self):
-      return self.name + self.date
+      return f'{self.name} {str(self.date.date())}'
